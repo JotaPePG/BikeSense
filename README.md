@@ -13,3 +13,5 @@ sudo apt-get autoremove -y ( Para limpar pacotes órfãos ou dependências não 
 `curl https://releases.rancher.com/install-docker/26.0.2.sh | sh` <!--(Isso vai baixar e executar o script de instalação fornecido pelo Rancher, que instala o Docker com a versão especificada.)-->
 
 `sudo usermod -aG docker ubuntu`
+
+---
