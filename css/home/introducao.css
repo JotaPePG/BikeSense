@@ -15,13 +15,7 @@
 }
 
 .introducao-conteudo h1 {
-  font-size: 64px;
-  line-height: 1.125;
   margin-bottom: 48px;
-}
-
-.introducao-conteudo h1 span {
-  color: var(--p1);
 }
 
 .introducao-conteudo p {

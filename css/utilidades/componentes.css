@@ -1,0 +1,42 @@
+/* Botão */
+
+.button {
+  padding: 16px 32px;
+  display: inline-block;
+  background: var(--g1);
+  border-radius: 20px;
+  color: var(--p5);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: var(--shadow-m3);
+}
+
+.button:hover {
+  background: var(--g2);
+}
+
+@media (max-width: 600px) {
+  .button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+/* Contain div */
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Tipografia */
+
+.texto-grande {
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.texto-grande span {
+  color: var(--p1);
+}

@@ -1,94 +1,13 @@
+/* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-:root {
-  --c0: #ffffff;
-  --c1: #f6f6f6;
-  --c2: 18px;
-  --c7: #484848;
-  --c8: #272727;
-  --c9: #171717;
-  --c10: #000000;
-  --g1: linear-gradient(
-    90deg,
-    rgba(255, 210, 50, 1) 0%,
-    rgba(236, 174, 7, 1) 100%
-  );
-}
+/* Global */
+@import "./global/header.css";
+@import "./utilidades/tipografia.css";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Poppins, Lora;
-}
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./global/global.css";
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.header-bg {
-  background: linear-gradient(
-    0deg,
-    rgba(23, 23, 23, 1) 0%,
-    rgba(17, 17, 17, 1) 100%
-  );
-}
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.header-menu a {
-  padding: 16px 0;
-  color: var(--c1);
-  font-size: 18px;
-  display: inline-block;
-}
-
-.header-menu a:hover {
-  background: var(--g1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 20px;
-  }
-  .header-menu a {
-    background-color: var(--c8);
-    padding: 8px 16px;
-    border-radius: 20px;
-  }
-
-  .header-menu a:hover {
-    background-color: var(--c7);
-  }
-}
-
-@media (max-width: 400px) {
-  .header-menu {
-    gap: 12px;
-  }
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
+/* Home Page */
+@import "./home/introducao.css";

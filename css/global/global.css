@@ -1,0 +1,41 @@
+:root {
+  --c0: #ffffff;
+  --c1: #f6f6f6;
+  --c2: #e3e3e3;
+  --c3: #c8c8c8;
+  --c4: #aaaaaa;
+  --c7: #484848;
+  --c8: #272727;
+  --c9: #171717;
+  --c10: #000000;
+  --p1: #e2b100;
+  --p5: #382400;
+  --g1: linear-gradient(#ffd232 0%, #ecae07 100%);
+  --g2: linear-gradient(#f5c71e 0%, #d49c00 100%);
+  --shadow-m3: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Lora;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  padding-bottom: 600px;
+}
