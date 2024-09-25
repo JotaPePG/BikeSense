@@ -6,8 +6,6 @@
   background: var(--g1);
   border-radius: 20px;
   color: var(--p5);
-  font-size: 20px;
-  font-weight: bold;
   box-shadow: var(--shadow-m3);
 }
 
@@ -32,11 +30,23 @@
 
 /* Tipografia */
 
-.texto-grande {
-  font-size: 64px;
-  line-height: 1.125;
+.font-1-g {
+  font: 600 4rem/1.125 var(--font-1);
 }
 
-.texto-grande span {
+.font-1-g span {
   color: var(--p1);
+}
+
+.font-1-m {
+  font: 500 1.25rem/1.6 var(--font-1);
+}
+
+.font-1-m-u {
+  font: 800 1.25rem/1.6 var(--font-1);
+  text-transform: uppercase;
+}
+
+.font-2-m {
+  font: 400 1.5rem/1.5 var(--font-2);
 }

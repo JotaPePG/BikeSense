@@ -13,13 +13,15 @@
   --g1: linear-gradient(#ffd232 0%, #ecae07 100%);
   --g2: linear-gradient(#f5c71e 0%, #d49c00 100%);
   --shadow-m3: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  --font-1: "Poppins";
+  --font-2: "Lora";
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins, Lora;
+  font-family: Poppins;
 }
 
 a {
