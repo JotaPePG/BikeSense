@@ -13,6 +13,7 @@
   --g1: linear-gradient(#ffd232 0%, #ecae07 100%);
   --g2: linear-gradient(#f5c71e 0%, #d49c00 100%);
   --shadow-m3: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  --shadow-m4: 0 0 10px 2px rgba(0, 0, 0, 0.5);
   --font-1: "Poppins";
   --font-2: "Lora";
 }
@@ -36,6 +37,10 @@ ul {
 img {
   max-width: 100%;
   object-fit: cover;
+}
+
+img[src$=".jpg"] {
+  border-radius: 20px;
 }
 
 body {

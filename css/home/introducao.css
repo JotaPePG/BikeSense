@@ -29,24 +29,16 @@
 
 .introducao-imagem img {
   height: 100%;
-  border-radius: 20px;
   box-shadow: var(--shadow-m3);
 }
 
 @media (max-width: 1200px) {
   .introducao-conteudo h1 {
-    font-size: 48px;
     margin-bottom: 32px;
-  }
-  .introducao-conteudo p {
-    font-size: 18px;
   }
 }
 
 @media (max-width: 800px) {
-  .introducao-conteudo h1 {
-    font-size: 32px;
-  }
   .introducao {
     grid-template-columns: 1fr;
     gap: 32px;
