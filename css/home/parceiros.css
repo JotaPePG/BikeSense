@@ -1,0 +1,46 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.parceiros h1 {
+  margin-bottom: 60px;
+}
+
+.parceiros ul {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--c2);
+  gap: 2px;
+}
+
+.parceiros li {
+  background-color: var(--c0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+@media (max-width: 800px) {
+  .parceiros li {
+    padding: 20px;
+  }
+  .parceiros h1 {
+    margin-bottom: 20px;
+  }
+  .parceiros {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .parceiros li {
+    padding: 20px;
+  }
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
