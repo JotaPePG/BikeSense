@@ -30,49 +30,62 @@
 
 /* Tipografia */
 
-.font-1-g-700 {
+.font-1-64-700 {
   font: 700 4rem/1.125 var(--font-1);
 }
 
-.font-1-g-700 span {
+.font-1-64-700 span {
   color: var(--p1);
 }
 
-.font-1-mg-600 {
+.font-1-24-600 {
   font: 600 2rem/1.125 var(--font-1);
 }
 
-.font-1-m-500 {
+.font-1-24-600-u {
+  font: 600 1.5rem/1.6 var(--font-1);
+  text-transform: uppercase;
+}
+
+.font-1-20-600-u {
+  font: 600 1.25rem/1.6 var(--font-1);
+  text-transform: uppercase;
+}
+
+.font-1-20-500 {
   font: 500 1.25rem/1.6 var(--font-1);
 }
 
-.font-1-m-800-u {
+.font-1-20-800-u {
   font: 800 1.25rem/1.6 var(--font-1);
   text-transform: uppercase;
 }
 
-.font-2-m-400 {
+.font-2-24-400 {
   font: 400 1.5rem/1.5 var(--font-2);
 }
 
-.font-2-l-300 {
+.font-2-20-300 {
   font: 300 1.25rem/1.125 var(--font-2);
+}
+.font-2-16-500 {
+  font: 500 1rem/1.125 var(--font-2);
 }
 
 @media (max-width: 1200px) {
-  .font-1-g {
+  .font-1-64-700 {
     font-size: 3rem;
   }
-  .font-2-m {
+  .font-2-24-400 {
     font-size: 1.25rem;
   }
 }
 
 @media (max-width: 800px) {
-  .font-1-g {
+  .font-1-64-700 {
     font-size: 2rem;
   }
-  .font-2-m {
+  .font-2-24-400 {
     font-size: 1.125rem;
   }
 }
@@ -105,4 +118,8 @@
 }
 .c10 {
   color: var(--c10);
+}
+
+.p1 {
+  color: var(--p1);
 }

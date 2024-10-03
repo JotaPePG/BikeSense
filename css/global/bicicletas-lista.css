@@ -9,6 +9,7 @@
   margin: 0 auto;
   padding: 20px;
   overflow-x: auto;
+  height: 100%;
 }
 
 .bicicletas-lista li {
@@ -44,20 +45,20 @@
   transition: 0.3s;
 }
 
-.bicicletas-lista a:hover img {
-  box-shadow: var(--shadow-m4);
-}
-
 .bicicletas-lista a {
   display: block;
   width: 100%;
   transition: 0.3s;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .bicicletas-lista a:hover {
   width: 104%;
   margin-left: -2%;
   margin-top: -2%;
+  margin-bottom: -2%;
+  box-shadow: var(--shadow-m3);
 }
 
 @media (max-width: 800px) {
